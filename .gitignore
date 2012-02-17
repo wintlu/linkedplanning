@@ -1,1 +1,7 @@
-"zh" 
+/tmp
+/.classpath
+/.project
+/eclipse
+/.settings
+/public/bootstrap/img/Thumbs.db
+/public/images/Thumbs.db
