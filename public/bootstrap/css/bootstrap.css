@@ -1733,6 +1733,17 @@ table .span12 {
 .btn-large .icon {
   margin-top: 1px;
 }
+.btn-larger {
+  padding: 12px 16px;
+  font-size: 18px;
+  line-height: normal;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.btn-larger .icon {
+  margin-top: 2px;
+}
 .btn-small {
   padding: 5px 9px;
   font-size: 11px;

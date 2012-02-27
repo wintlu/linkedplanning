@@ -1,0 +1,37 @@
+#{extends 'main.html' /}
+
+#{set title:'Home' /} 
+
+#{set 'moreStyles'}
+<link href="/public/bootstrap/css/bootstrap.css" rel="stylesheet" />
+#{/set}
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="brand" href="/" >Linked Planning</a>
+			 
+			<ul class="nav pull-right">
+				<li>
+					<a>${me2.get("nickname").getAsString()}</a>
+				</li>
+				<li>
+					<a href="@{logout()}">logout</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+
+</div>
+<div class="container">
+	<div class="hero-unit">
+		<div class="row">
+			 hello
+		</div>
+	</div>
+	
+	<footer>
+		<p>@wint lu 2012</p>
+	</footer>
+</div>

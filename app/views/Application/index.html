@@ -32,41 +32,56 @@
 </div>
 <div class="container">
 	<div class="hero-unit">
-		<h2>Linked Planning</h2>
-		<br/>
-		<p>
-		is a web and mobile app that can help you
-		</p>
-		<ul>
-		<li>Make plans</li>
-		<li>Organize your work</li>
-		<li>Share and link with your friends</li>
-		</ul>
-		
-		<p>
-			<a class="btn btn-primary btn-large">Try it now!</a>
-		</p>
+		<div class="row">
+			<div class="span6">
+			<h2>Linked Planning</h2>
+				<br/>
+				<p>
+				is a web and mobile app that can help you
+				</p>
+				<ul>
+				<li>Make plans</li>
+				<li>Organize your work</li>
+				<li>Share and link with your friends</li>
+				</ul>
+				
+				<p>
+					<a class="btn btn-primary btn-large">Try it now!</a>
+				</p>
+			</div>
+			<div class="span4">
+				<div>
+					
+				</div>
+				<div>
+					#{if me}
+						<h2>You are ${me.get("openid")}</h2>
+					#{/if}
+					#{else}
+						<a class="" href="@{auth()}"><img alt="Login with QQ" src="/public/images/connect_logo_qq.png"></a>
+					#{/else}
+				</div>
+			</div>
+		</div>
 	</div>
 	
 	<div class="row"> 
 		<div class="span4">
-			<h2>Why Linked Planning</h2>
-			Do you often make a plan but fail to follow it?<br/>
-			OK, maybe you do not, but I do. <br/>
-			I think my plan works better my friends help me <br/>
-			I guess some of you are thinking just like me, so the Linked Planning was created.
-			<p>
-			<a class="btn" href="#">View Detail</a>
-			</p>
+		 &nbsp;
 		</div>
-		<div class="span8">
-		<h2>Download</h2></div>
-		
+		<div class="span4">
+			<a class="btn btn-success btn-larger disabled">Download Android client<br/>(when it is released...)</a>
+		</div>
+		<div class="span4">
+		</div>
 	</div>
-	
 	<hr>
 	
+	<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<g:plusone></g:plusone>
+
+	
 	<footer>
-		<p>@wint lu</p>
+		<p>@wint lu 2012</p>
 	</footer>
 </div>
