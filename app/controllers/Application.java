@@ -20,10 +20,13 @@ import libs.OAuth2;
 import libs.OAuth2.Response;
 import models.*;
 
+
 //add some development things now... (in develop branch)
 
-public class Application extends Controller {
+//there is also something changed in master branch ...
 
+public class Application extends Controller {
+// one more change in master
 	public static OAuth2 QQ = new OAuth2(
 			"https://graph.qq.com/oauth2.0/authorize",
 			"https://graph.qq.com/oauth2.0/token", "100246727",
